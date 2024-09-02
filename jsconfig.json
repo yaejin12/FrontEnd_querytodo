@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src"
+  },
+  "include": ["src"]
+}
+
+
+
+// 1. axiostodo src -> 옮겨오기
+// 2. axiostodo packagejson의 dependancies -> 붙여넣기
+// 3. 중복되거나 필요없는 라이브러리 삭제
+
+// 4. vite의 자체 lint 설정이 있기 때문에 js파일을 모두 jsx
+// main.jsx(index.js(XX)), App.jsx, router.jsx, providers.jsx
+
+// 5. axiostodo jsocnfig.json --> 옮겨오기
+// 6. npm i vite-jsconfig-paths 설치
+// 7. vite.config.json에 import에서 사용
+
+// 8. 서버 종료 후 npm run dev
+
+
